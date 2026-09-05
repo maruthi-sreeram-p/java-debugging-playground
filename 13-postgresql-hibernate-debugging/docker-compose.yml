@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: debuglab13-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: assetsdb
+      POSTGRES_USER: assetuser
+      POSTGRES_PASSWORD: assetpw
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U assetuser -d assetsdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
