@@ -91,30 +91,32 @@ needed.
 
 ## The projects
 
-| # | Project | Concepts | Infrastructure | Difficulty |
-|---|---|---|---|---|
-| 01 | REST API request/response | Spring MVC mapping, status codes, DTOs | none | Beginner |
-| 02 | Dependency injection | component scan, qualifiers, scopes, `@Value` | none | Beginner |
-| 03 | Exception handling | `@RestControllerAdvice`, error contracts | none | Beginner |
-| 04 | JPA entities & repositories | mappings, derived queries, `save`/`merge` | none | Beginner→Int. |
-| 05 | MySQL integration | `ddl-auto`, schema drift, connection pooling | MySQL | Intermediate |
-| 06 | JPA relationships | `mappedBy`, cascades, orphan removal | MySQL | Intermediate |
-| 07 | Lazy / eager loading | fetch types, `open-in-view`, N+1 | none | Intermediate |
-| 08 | Transaction management | proxies, propagation, rollback rules | MySQL | Int.→Advanced |
-| 09 | Security: authentication | filter chains, CSRF, password encoding | MySQL | Int.→Advanced |
-| 10 | Security: authorization | roles vs authorities, matcher order | MySQL | Advanced |
-| 11 | JWT authentication | claims, keys, expiry, filter ordering | MySQL | Advanced |
-| 12 | Validation & DTOs | `@Valid`, nested constraints, mapping order | MySQL | Advanced |
-| 13 | PostgreSQL + Hibernate | identifier case, sequences, enums | PostgreSQL | Advanced |
-| 14 | Redis caching | cache abstraction, keys, serialisation, TTL | MySQL + Redis | Advanced |
-| 15 | Redis cache invalidation | evict vs put, transactions, collection caches | MySQL + Redis | Advanced |
-| 16 | Kafka producer/consumer | topics, groups, offset reset, serdes | Kafka | Advanced |
-| 17 | Kafka offsets & processing | acknowledgement, retries, idempotency | Kafka | Adv.→Expert |
-| 18 | RabbitMQ producer/consumer | exchanges, bindings, converters | RabbitMQ | Advanced |
-| 19 | RabbitMQ ack & routing | manual ack, prefetch, dead-letter, wildcards | RabbitMQ | Expert |
-| 20 | Combined | all of the above, interacting | MySQL + Redis + Kafka | Expert |
+| # | Project | Concepts | Infrastructure | Defects | Difficulty |
+|---|---|---|---|---|---|
+| 01 | REST API request/response | Spring MVC mapping, status codes, DTOs | none | 5 | Beginner |
+| 02 | Dependency injection | component scan, qualifiers, scopes, `@Value` | none | 5 | Beginner |
+| 03 | Exception handling | `@RestControllerAdvice`, error contracts | none | 5 | Beginner |
+| 04 | JPA entities & repositories | mappings, derived queries, `save`/`merge` | none | 5 | Beginner→Int. |
+| 05 | MySQL integration | `ddl-auto`, schema drift, connection pooling | MySQL | 5 | Intermediate |
+| 06 | JPA relationships | `mappedBy`, cascades, orphan removal | MySQL | 6 | Intermediate |
+| 07 | Lazy / eager loading | fetch types, `open-in-view`, N+1 | none | 6 | Intermediate |
+| 08 | Transaction management | proxies, propagation, rollback rules | MySQL | 7 | Int.→Advanced |
+| 09 | Security: authentication | filter chains, CSRF, password encoding | MySQL | 6 | Int.→Advanced |
+| 10 | Security: authorization | roles vs authorities, matcher order | MySQL | 7 | Advanced |
+| 11 | JWT authentication | claims, keys, expiry, filter ordering | MySQL | 9 | Advanced |
+| 12 | Validation & DTOs | `@Valid`, nested constraints, mapping order | MySQL | 8 | Advanced |
+| 13 | PostgreSQL + Hibernate | identifier case, sequences, enums | PostgreSQL | 7 | Advanced |
+| 14 | Redis caching | cache abstraction, keys, serialisation, TTL | MySQL + Redis | 6 | Advanced |
+| 15 | Redis cache invalidation | evict vs put, transactions, collection caches | MySQL + Redis | 7 | Advanced |
+| 16 | Kafka producer/consumer | topics, groups, offset reset, serdes | Kafka | 7 | Advanced |
+| 17 | Kafka offsets & processing | acknowledgement, retries, idempotency | Kafka | 7 | Adv.→Expert |
+| 18 | RabbitMQ producer/consumer | exchanges, bindings, converters | RabbitMQ | 6 | Advanced |
+| 19 | RabbitMQ ack & routing | manual ack, prefetch, dead-letter, wildcards | RabbitMQ | 7 | Expert |
+| 20 | Combined | all of the above, interacting | MySQL + Redis + Kafka | 12 | Expert |
 
-`PROJECT_PLAN.md` describes the architecture of each project in detail.
+All twenty projects are built, and every one has been started, exercised and verified. There
+are **133 planted problems** across the lab. `PROJECT_PLAN.md` describes the architecture of
+each project in detail.
 
 ## A note on how to debug
 
