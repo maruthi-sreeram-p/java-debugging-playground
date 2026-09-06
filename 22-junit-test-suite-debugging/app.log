@@ -1,0 +1,38 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-09-06T08:26:16.452+05:30  INFO 20732 --- [loyalty-points] [           main] c.debuglab.loyalty.LoyaltyApplication    : Starting LoyaltyApplication v1.0.0 using Java 22.0.2 with PID 20732 (D:\New folder\cocept wise  bug codes\java-backend-debugging-lab\22-junit-test-suite-debugging\target\loyalty-points-1.0.0.jar started by P.Abhiram in D:\New folder\cocept wise  bug codes\java-backend-debugging-lab\22-junit-test-suite-debugging)
+2026-09-06T08:26:16.458+05:30  INFO 20732 --- [loyalty-points] [           main] c.debuglab.loyalty.LoyaltyApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-09-06T08:26:17.227+05:30  INFO 20732 --- [loyalty-points] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-06T08:26:17.294+05:30  INFO 20732 --- [loyalty-points] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-09-06T08:26:17.900+05:30  INFO 20732 --- [loyalty-points] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-06T08:26:17.914+05:30  INFO 20732 --- [loyalty-points] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-06T08:26:17.914+05:30  INFO 20732 --- [loyalty-points] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-09-06T08:26:17.949+05:30  INFO 20732 --- [loyalty-points] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-06T08:26:17.951+05:30  INFO 20732 --- [loyalty-points] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1449 ms
+2026-09-06T08:26:18.000+05:30  INFO 20732 --- [loyalty-points] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-06T08:26:18.227+05:30  INFO 20732 --- [loyalty-points] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:loyaltydb user=SA
+2026-09-06T08:26:18.228+05:30  INFO 20732 --- [loyalty-points] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-06T08:26:18.241+05:30  INFO 20732 --- [loyalty-points] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:loyaltydb'
+2026-09-06T08:26:18.364+05:30  INFO 20732 --- [loyalty-points] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-06T08:26:18.432+05:30  INFO 20732 --- [loyalty-points] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-09-06T08:26:18.472+05:30  INFO 20732 --- [loyalty-points] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-06T08:26:18.805+05:30  INFO 20732 --- [loyalty-points] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-06T08:26:19.677+05:30  INFO 20732 --- [loyalty-points] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-06T08:26:19.715+05:30  INFO 20732 --- [loyalty-points] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-06T08:26:20.564+05:30  INFO 20732 --- [loyalty-points] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-06T08:26:20.581+05:30  INFO 20732 --- [loyalty-points] [           main] c.debuglab.loyalty.LoyaltyApplication    : Started LoyaltyApplication in 4.648 seconds (process running for 5.184)
+2026-09-06T08:26:22.847+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-06T08:26:22.847+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-06T08:26:22.849+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-06T08:26:23.132+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-1] c.d.loyalty.service.LoyaltyService       : cust-1002 earned 5 points on a spend of 500.00 and now has 1000 (BRONZE)
+2026-09-06T08:26:23.267+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-2] c.d.loyalty.service.LoyaltyService       : cust-1003 earned 10 points on a spend of 1000.00 and now has 5000 (SILVER)
+2026-09-06T08:26:23.319+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-3] c.d.loyalty.service.LoyaltyService       : cust-1001 earned 2 points on a spend of 150.00 and now has 252 (BRONZE)
+2026-09-06T08:26:23.424+05:30  INFO 20732 --- [loyalty-points] [nio-8080-exec-6] c.d.loyalty.service.LoyaltyService       : cust-1001 redeemed 100000 points and now has -99748 (BRONZE)

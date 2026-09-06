@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.debuglab.loyalty.LoyaltyAccountTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.342 s -- in com.debuglab.loyalty.LoyaltyAccountTest

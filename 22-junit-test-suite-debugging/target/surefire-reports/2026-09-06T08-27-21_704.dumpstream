@@ -1,0 +1,5 @@
+# Created at 2026-09-06T08:27:21.880
+Boot Manifest-JAR contains absolute paths in classpath 'D:\New folder\cocept wise  bug codes\java-backend-debugging-lab\22-junit-test-suite-debugging\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

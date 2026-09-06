@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.debuglab.loyalty.LoyaltyPointsCalculationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.955 s -- in com.debuglab.loyalty.LoyaltyPointsCalculationTest
